@@ -1,6 +1,8 @@
 1.Create the file .env
 It have to contain string:
+
 MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/?retryWrites=true&w=majority&appName=YourAppName
+
 Where <username>, <password>, <cluster-url> is your data, respectively
 
 2. Run the scraper.py file
